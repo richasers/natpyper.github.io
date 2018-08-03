@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 30px;
+	background-color: black;
+}
+
+.alphabet {
+	color:red;
+	text-transform:uppercase;
+}
+
+p {
+	font-family: Courier New, monospace;
+	color: white;
+	font-size: 12pt;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+/* list style */
+ul {
+	font-family: Courier New, monospace;
+	color: white;
+	font-size: 12pt;
+    list-style-type: square;
+}
+
