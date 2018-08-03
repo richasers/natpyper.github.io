@@ -14,7 +14,12 @@ body {
 p {
 	font-family: Courier New, monospace;
 	color: white;
-	font-size: 5vmin;
+	font-size: 3vmin;
+}
+
+a {
+	target-name:new;
+	target-new:tab;
 }
 
 /* unvisited link */
@@ -41,7 +46,7 @@ a:active {
 ul {
 	font-family: Courier New, monospace;
 	color: white;
-	font-size: 5vmin;
+	font-size: 3vmin;
     list-style-type: square;
 }
 
