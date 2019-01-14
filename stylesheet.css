@@ -16,7 +16,7 @@ body {
   p {
    	font-family: Times New Roman, serif;
 	color: white;
-	font-size: 18px;
+	font-size: 24px;
   }
 }
 
@@ -25,7 +25,7 @@ body {
   p {
     font-family: Times New Roman, serif;
 	color: white;
-	font-size: 24px;
+	font-size: 30px;
   }
 }
 
@@ -34,7 +34,7 @@ body {
   ul {
    	font-family: Times New Roman, serif;
 	color: white;
-	font-size: 18px;
+	font-size: 24px;
 	list-style-type: square;
   }
 }
@@ -44,7 +44,7 @@ body {
   ul {
     font-family: Times New Roman, serif;
 	color: white;
-	font-size: 24px;
+	font-size: 30px;
 	list-style-type: square;
   }
 }
