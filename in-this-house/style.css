@@ -1,0 +1,54 @@
+.var-highlight {
+  color: #C0AD60;
+}
+
+#house {
+	position:absolute;
+	bottom: 0;
+	max-width: 100%;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.string-highlight {
+  color: #000;
+}
+
+#typewriter {
+  font-family: Courier, monospace; 
+  font-size:18px; 
+  margin: 25px 25px; 
+  letter-spacing: 2px; 
+  font-weight:100;
+  -ms-word-break: break-all; 
+  word-break: break-all; 
+  word-break: break-word; 
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+
+}
+
+#typewriter:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+          animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
