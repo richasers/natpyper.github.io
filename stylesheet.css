@@ -2,57 +2,28 @@
 /* CSS Document */
 
 body {
-	margin: 30px;
 	background-color: black;
-}
-
-.alphabet {
-	color:#9442d1;
-	text-transform:uppercase;
-}
-
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 1001px) {
-  p {
-   	font-family: Times New Roman, serif;
+	font-family: Times New Roman, serif;
 	color: white;
+}
+
+ p {
 	font-size: 24px;
-  }
+	line-height: 1.25;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1000px) {
-  p {
-    font-family: Times New Roman, serif;
-	color: white;
-	font-size: 30px;
-  }
+.column {
+	width: 60%;
+	margin: auto;
+	padding: 25px 0;
 }
-
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 1001px) {
-  ul {
-   	font-family: Times New Roman, serif;
-	color: white;
-	font-size: 24px;
-	list-style-type: square;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1000px) {
-  ul {
-    font-family: Times New Roman, serif;
-	color: white;
-	font-size: 30px;
-	list-style-type: square;
-  }
-}
-
 
 /* unvisited link */
 a:link {
-    color: white;
+	text-decoration: none;
+	border-bottom: 1px solid;
 }
 
 /* visited link */
@@ -62,10 +33,17 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: yellow;
+	color: transparent;
 }
 
 /* selected link */
 a:active {
-    color: yellow;
+    color: transparent;
+}
+
+@media screen and (max-width : 768px ){
+	.column {
+		width: auto;
+		margin: 0;
+	}
 }
