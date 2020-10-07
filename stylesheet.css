@@ -1,23 +1,75 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* !!! CSS RESET !!! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.25;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* /// END CSS RESET /// */
+
 body {
 	background-color: black;
-	font-family: Times New Roman, serif;
-	color: white;
 }
 
  p {
 	font-size: 24px;
+	font-family: Times New Roman, serif;
+	color: white;
 	line-height: 1.25;
 	letter-spacing: 1px;
-	margin-bottom: 50px;
 }
 
 .column {
-	width: 60%;
-	margin: auto;
-	padding: 25px 0;
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 7px 10px 10px;
 }
 
 /* unvisited link */
@@ -45,7 +97,9 @@ a:active {
 @media screen and (max-width : 768px ){
 	.column {
 		width: auto;
-		margin: 0;
-		padding: 25px;
+	}
+	
+	p {
+	font-size: 28px;
 	}
 }
