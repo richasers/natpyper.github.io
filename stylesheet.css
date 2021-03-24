@@ -95,11 +95,11 @@ a:active {
 }
 
 @media screen and (max-width : 768px ){
-	.column {
-		width: auto;
-	}
-	
 	p {
 	font-size: 28px;
+	}
+	
+	.column {
+		width: auto;
 	}
 }
